@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Task</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/all.css" />
+</head>
+
+<body>
+  <section>
+    <nav class="navbar navbar-expand-lg  fixed-top">
+      <div class="container-fluid px-5 py-0 my-0">
+        <a class="navbar-brand" href="#"> <img src="./assets/images/roots1.png" width="50" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Our Root
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#qudes">Jerusalem</a></li>
+                <li><a class="dropdown-item" href="#betlahem">Bethlehem</a></li>
+                <li><a class="dropdown-item" href="#Jericho">Jericho</a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">About</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <div id="fixed-social">
+    <div>
+      <a href="#" class="fixed-facebook" target="_blank"><i class="fab fa-facebook-f"></i> <span>Facebook</span></a>
+    </div>
+    <div>
+      <a href="#" class="fixed-twitter" target="_blank"><i class="fab fa-twitter"></i> <span>Twitter</span></a>
+    </div>
+
+    <div>
+      <a href="#" class="fixed-linkedin" target="_blank"><i class="fab fa-linkedin "></i> <span>LinkedIn</span></a>
+    </div>
+    <div>
+      <a href="#" class="fixed-instagrem" target="_blank"><i class="fab fa-instagram"></i> <span>Instagram</span></a>
+    </div>
+   
+  </div>
+  <section>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-item1 active" data-bs-interval="10000">
+          <img src=".." class="d-block vh-100 w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Jerusalem</h5>
+            <p>Jerusalem is a city of great religious importance to followers of the three Abrahamic religions: Jews, Christians, and Muslims.</p>
+            <a class="btn btn-primary" href="#qudes" role="button">Learn more</a>
+          </div>
+        </div>
+        <div class="carousel-item carousel-item2 text-center m-auto" data-bs-interval="2000">
+          <img src="..." class="d-block vh-100 text-center w-75 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bethlehem</h5>
+            <p>Bethlehem has great importance to Christians as it is the birthplace of Jesus (Isa). There are many churches in Bethlehem, perhaps the most important of which is the Church of the Nativity</p>
+            <a class="btn btn-primary" href="#betlahem" role="button">Learn more</a>
+          </div>
+        </div>
+        <div class="carousel-item carousel-item3">
+          <img src=".." class="d-block vh-100 w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Jericho</h5>
+            <p>Jericho is an ancient Canaanite city, considered by archaeological experts to be the oldest city ever, as it dates back to the Stone Age 10-11 thousand years ago, that is, about before the eighth millennium BC.</p>
+            <a class="btn btn-primary" href="#Jericho" role="button">Learn more</a>
+           </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+
+  <section class="first-section  py-5 ">
+    <div class="jumbotron my-1 p-5 shadow-sm container">
+      <h1 class="display-4"> <b>Roots In Palestine</b></h1>
+      <p class="lead">Welcome! to take a journey into the historical and religious roots of Palestine.</p>
+      <hr class="my-4 text-dark ">
+      <p>
+        Palestine is distinguished by its heritage and history. It is located in the heart of the world and is considered a meeting point between Africa, Europe and Asia. Palestine is considered the cradle of the heavenly religions and a center for the most important religious monuments and historical evidence.</p>
+      <a class="btn btn-primary btn-lg" href="#qudes" role="button">Learn more</a>
+    </div>
+  </section>
+
+  <section class="info-section  pb-5">
+<div class="container">
+    <div class="title py-5 text-white text-center">
+      <h2 >The most important roots</h2>
+    </div>
+    <div class="accordion shadow-sm" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+               Jerusalem #1
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            Jerusalem is the third holiest place for Muslims after Mecca and Medina, and it represented the qibla of Islamic prayer for nearly a year, before the qibla changed to the Kaaba in Mecca. Jerusalem became a city of religious importance to Muslims after the angel Gabriel took the Prophet Muhammad captive there, according to Islamic belief, around the year 620, where he ascended from the holy rock to the highest heavens, where he met all the prophets and messengers who preceded him and received from God the teachings of prayer and how to perform it. Surah Al-Isra states that Muhammad was taken on captivity from the Sacred Mosque to Al-Aqsa Mosque.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              Bethlehem #2
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Bethlehem has great importance to Christians as it is the birthplace of Jesus (Isa). There are many churches in Bethlehem, perhaps the most important of which is the Church of the Nativity, which was built by Constantine the Great (330 AD). This is above a cave or grotto, which is believed to be the stable in which Jesus was born. It is believed that this church is the oldest existing church in the world. There is also another crypt nearby where Jerome is believed to have spent thirty years of his life translating the Bible.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              Jericho #3
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            Jericho is an ancient historical Palestinian city that dates back to 10,000 BC. It is the capital of Jericho Governorate and it is the oldest city in history, dating back to the Stone Age, 10-11 thousand years ago, that is, about before the eighth millennium BC. In the Middle Bronze Age, specifically in the first half of the second millennium BC, Jericho grew as a major urban center with its palaces, fortification system, and cemeteries.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="translate-section py-5 ">
+   
+    <div class="container myform p-5 shadow">
+      
+      <div class="title text-dark p-1 border-bottom">
+        <h2>Translate From Arabic To English </h2>
+      </div>
+      <form>
+        <div class="form-group pt-4">
+          <h5>Write and Translate   <a href="#" class="text-dark">Press Here</a> </h5>
+          <button type="button" class="btn btn-dark m-1" id="copy">Copy Text</button>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+    </div>
+
+  </section>
+  <section class="translate-section py-5 ">
+    <div class="container myform p-5 shadow">
+      <div class="title text-dark p-1 border-bottom">
+        <h2>Translate From Arabic To Frensh </h2>
+      </div>
+      <form>
+        <div class="form-group pt-4">
+          <h5>Write and Translate   <a href="#" class="text-dark">Press Here</a> </h5>
+          <button type="button" class="btn btn-dark m-1" id="copy">Copy Text</button>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+    </div>
+
+  </section>
+  <section class="title-album-section  text-center ">
+ <div class="overlay-black1"></div>
+    <div class="container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light ">Roots In Palestine</h1>
+        <p class="lead text-light">Palestine stands at the forefront of countries rich in historical, archaeological and religious sites, which constitute an important part of the Palestinian cultural identity and an integral part of the human cultural heritage. In the Palestinian territories in the West Bank and Gaza Strip, there are more than (2000) archaeological sites.
+            </p>
+        <p>
+         
+        </p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="album-section  text-center ">
+
+    <div class=" py-5 text-center ">
+      <div class="container">
+        <div class="title text-light p-5">
+          <h2>Historical, Archaeological And Religious Monuments</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="Jericho">
+          <div class="col-4 my-4  ">
+            <div class="card border-0">
+              <img src="./assets/images/HishamPalace.jpg" class=" h-100 w-100" alt="...">
+
+              <div class="card-body  ">
+                <p class="card-text"><b>Hisham's Palace - Ancient Jericho:</b> also known as Khirbat al-Mafjar, is an important early Islamic archaeological site in the Palestinian city of Jericho, in the West Bank. Built by the Umayyad dynasty in the first half of the 8th century, it is one of the so-called Umayyad desert castles.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary px-4">Know More</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+             
+            </div>
+            
+          </div>
+          <div class="col-4 my-4  ">
+            <div class="card border-0">
+              <img src="./assets/images/deadsee.jpg" class=" h-100 w-100" alt="...">
+
+              <div class="card-body  ">
+                <p class="card-text"><b>The Dead Sea - Jericho:</b> It is a salt lake bordered by Jordan to the east and Palestine's West Bank and Israel to the west. It lies in the Jordan Rift Valley, and its main tributary is the Jordan River</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary px-4">Know More</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 my-4  ">
+            <div class="card border-0">
+              <img src="./assets/images/wadi-qalt2.jpg" class=" h-100 w-100" alt="...">
+
+              <div class="card-body  ">
+                <p class="card-text"><b>Wadi Qelt - Ancient Jericho:</b> in Hebrew Nahal Prat, formerly Naḥal Faran, is a valley, riverine gulch or stream in the West Bank, originating near Jerusalem and running into the Jordan River near Jericho, shortly before it flows into the Dead Sea.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary px-4">Know More</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 my-4  ">
+            <div class="card border-0">
+              <img src="./assets/images/GettyImages2.jpg" class=" h-100 w-100" alt="...">
+
+              <div class="card-body  ">
+                <p class="card-text"><b>Sebastia - Nablus: </b> An important archaeological site with many archaeological sites still standing, including: the Western Gate, the Street of Columns, the Central Square, the Roman Amphitheater, the Greek Tower, the Temple of Augustus, and the Palace of King Omri.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary px-4">Know More</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 my-4  ">
+            <div class="card border-0">
+              <img src="./assets/images/nablus.jpg" class=" h-100 w-100" alt="...">
+
+              <div class="card-body  ">
+                <p class="card-text"><b>Roman Amphitheater - Nablus: </b>
+                  Its construction dates back to the third century AD, and it was discovered in 1980 AD. It was a place for wrestling for life between the combatants and between them and predatory animals.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary px-4">Know More</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 my-4  ">
+            <div class="card border-0">
+              <img src="./assets/images/tal2.jpg" class=" h-100 w-100" alt="...">
+
+              <div class="card-body  ">
+                <p class="card-text"><b>Tell Sultan - Ancient Jericho:</b> also known as Tel Jericho or Ancient Jericho, is an archaeological site and a UNESCO World Heritage Site in the State of Palestine, in the city of Jericho, consisting of the remains of the oldest fortified city in the world.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary px-4">Know More</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 my-4  ">
+            <div class="card border-0">
+              <img src="./assets/images/qeama.jpg" class=" h-100 w-100" alt="...">
+
+              <div class="card-body  ">
+                <p class="card-text">
+<b>Alqiama charch - Jerusalem:</b> The Church of the Resurrection is considered the oldest,
+ most important and most sacred in the Christian world. It was built over the 
+ tomb of Jesus Christ. The construction of the church dates back to the fourth 
+ century AD and it took eleven years to build.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary px-4">Know More</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 my-4  ">
+            <div class="card border-0">
+              <img src="./assets/images/Damascus Gate.jpg" class=" h-100 w-100" alt="...">
+
+              <div class="card-body  ">
+                <p class="card-text"><b>Damascus Gate - Jerusalem:</b> It is located in the middle of the northern wall of the Jerusalem Wall and dates back to the era of the Ottoman Sultan Suleiman the Magnificent. Above this door is a round arch standing between two towers.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary px-4">Know More</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 my-4  ">
+            <div class="card border-0">
+              <img src="./assets/images/10922866_797865423594347_2298031090316269649_n.jpg" class=" h-100 w-100" alt="...">
+
+              <div class="card-body  ">
+                <p class="card-text"> <b>Dome of Spirits - Jerusalem: </b> It is located to the north of the Dome of the Rock in the Holy Mosque. It dates back to the tenth century AH, and it may have been named that because of its proximity to the cave known as the Cave of Souls. The dome consists of a structure made of eight marble columns supported by eight pointed arches.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary px-4">Know More</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="img-back w-100 ">
+    <div class="overlay-black w-100"></div>
+
+  </div>
+  <section class="customs-section py-5 text-center">
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class=" text-white">Special thanks</h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col custom-card">
+          <div class=" card card-cover h-100 overflow-hidden text-white  shadow-lg position-relative">
+            <div class="overlay-black-cum"></div>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 position-relative ">
+              <h2 class="py-5 mt-5 mb-4 display-6 lh-1 fw-bold">All thanks and appreciation</h2>
+              <ul class="d-flex list-unstyled mt-auto pt-5 ">
+                <li class="me-auto">
+                  <img src="./assets/images/christina.jpg"  alt="Bootstrap" width="70"
+
+                    class="rounded-circle border border-dark ">
+                    <small class="p-3">Christina</small>
+                </li>
+               
+                <li class="d-flex align-items-center">
+              
+                  <small>UIUX Designer</small>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col custom-card">
+          <div class=" card card-cover2 h-100 overflow-hidden text-white  shadow-lg position-relative">
+            <div class="overlay-black-cum"></div>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 position-relative ">
+              <h2 class="py-5 mt-5 mb-4 display-6 lh-1 fw-bold">All thanks and appreciation</h2>
+              <ul class="d-flex list-unstyled mt-auto pt-5 ">
+                <li class="me-auto">
+                  <img src="./assets/images/joy.jpg"  alt="Bootstrap" width="70"
+
+                    class="rounded-circle border border-dark ">
+                    <small class="p-2">Joy</small>
+                </li>
+               
+                <li class="d-flex align-items-center">
+              
+                  <small>Front-end Developer</small>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="col custom-card">
+          <div class=" card card-cover3 h-100 overflow-hidden text-white  shadow-lg position-relative">
+            <div class="overlay-black-cum"></div>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 position-relative ">
+              <h2 class="py-5 mt-5 mb-4 display-6 lh-1 fw-bold">All thanks and appreciation</h2>
+              <ul class="d-flex list-unstyled mt-auto pt-5 ">
+                <li class="me-auto">
+                  <img src="./assets/images/jons.jpg"  alt="Bootstrap" width="70"
+
+                    class="rounded-circle border border-dark ">
+                    <small class="p-2">Jons</small>
+                </li>
+               
+                <li class="d-flex align-items-center">
+              
+                  <small>Back-end Developer</small>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="poster-section py-5 ">
+    <div class="container">
+      
+      <div class="title text-light text-center p-5">
+        <h2>Most prominent religious monuments.</h2>
+      </div>
+    <div class="card mb-3 my-5" id="qudes">
+      <div class="row  no-gutters  overflow-hidden  flex-md-row shadow-sm h-md-250  position-relative">
+        <div class="col-md-4">
+          <img src="./assets/images/qudes-black2.jpg" class="card-img h-100 w-100" alt="...">
+        </div>
+        <div class="col-md-8 p-4">
+          <div class="card-body  d-flex flex-column ">
+            <strong class="d-inline-block mb-2 text-success">Jerusalem</strong>
+            <h3 class="mb-0">Dome of the Rock</h3>
+            <div class="mb-1 text-muted"><i class="fas fa-calendar-alt fa-sm"></i>  <small>Mon, May 25th 2023</small></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> </div>
+            </div>
+
+            <p class="mb-auto pb-3">The Dome of the Rock was built in the heart of the Holy Mosque, on the northern side, opposite the blessed Al-Aqsa Mosque, over the rock from which the Prophet Muhammad (PBUH) ascended to the highest heavens. </p>
+              
+
+          </div>
+          <div class="px-3 card-btn">
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-tags fa-sm"></i> <small>Podcast</small>  </button>
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-clock fa-sm"></i><small>55 Mins</small>  </button>
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-play fa-sm"></i> <small>Play Episode</small> </button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 m-3 my-5" id="betlahem">
+      <div class="row no-gutters  rounded overflow-hidden  flex-md-row shadow-sm h-md-250  position-relative">
+        <div class="col-md-8 p-4">
+          <div class="card-body  d-flex flex-column ">
+            <strong class="d-inline-block mb-2 text-success">Bethlehem</strong>
+            <h3 class="mb-0">Church of the Nativity
+            </h3>
+            <div class="mb-1 text-muted"><i class="fas fa-calendar-alt fa-sm"></i>  <small>Mon, May 25th 2023</small></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> </div>
+            </div>
+
+            <p class="mb-auto pb-3">The Church of the Nativity, or Basilica of the Nativity, is a basilica located in Bethlehem in the State of Palestine, in the West Bank. The grotto holds a prominent religious significance to Christians of various denominations as the birthplace of Jesus.</p>
+              
+
+          </div>
+          <div class="px-3 card-btn">
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-tags fa-sm"></i> <small>Podcast</small>  </button>
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-clock fa-sm"></i><small>55 Mins</small>  </button>
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-play fa-sm"></i> <small>Play Episode</small> </button>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          <img src="./assets/images/jorge.jpg" class="card-img img2 h-100 w-100" alt="...">
+        </div>
+
+      </div>
+    </div>
+    <div class="card mb-3 my-5">
+      <div class="row  no-gutters  overflow-hidden  flex-md-row shadow-sm h-md-250  position-relative">
+        <div class="col-md-4">
+          <img src="./assets/images/al-aqsa-mosque.jpg" class="card-img h-100 w-100" alt="...">
+        </div>
+        <div class="col-md-8 p-4">
+          <div class="card-body  d-flex flex-column ">
+            <strong class="d-inline-block mb-2 text-success">Jerusalem</strong>
+            <h3 class="mb-0">Al-Aqsa Mosque
+            </h3>
+            <div class="mb-1 text-muted"><i class="fas fa-calendar-alt fa-sm"></i>  <small>Mon, May 25th 2023</small></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> </div>
+            </div>
+
+            <p class="mb-auto pb-3">The Aqsa Mosque, also known as the Qibli Mosque or Qibli Chapel, is the main congregational mosque or prayer hall in the Al-Aqsa mosque compound in the Old City of Jerusalem.
+            </p>
+              
+
+          </div>
+          <div class="px-3 card-btn">
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-tags fa-sm"></i> <small>Podcast</small>  </button>
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-clock fa-sm"></i><small>55 Mins</small>  </button>
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-play fa-sm"></i> <small>Play Episode</small> </button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 m-3 my-5">
+      <div class="row no-gutters  rounded overflow-hidden  flex-md-row shadow-sm h-md-250  position-relative">
+        <div class="col-md-8 p-4">
+          <div class="card-body  d-flex flex-column ">
+            <strong class="d-inline-block mb-2 text-success">Hebron  </strong>
+            <h3 class="mb-0">Ibrahimi Mosque</h3>
+            <div class="mb-1 text-muted"><i class="fas fa-calendar-alt fa-sm"></i>  <small>Mon, May 25th 2023</small></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> </div>
+            </div>
+
+            <p class="mb-auto pb-3">The Cave of the Patriarchs or Tomb of the Patriarchs, known to Jews by its Biblical name Cave of Machpelah and to Muslims as the Sanctuary of Abraham, is a series of caves situated 30 kilometres south of Jerusalem in the heart of the Old City of Hebron in the West Bank </p>
+              
+
+          </div>
+          <div class="px-3 card-btn">
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-tags fa-sm"></i> <small>Podcast</small>  </button>
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-clock fa-sm"></i><small>55 Mins</small>  </button>
+            <button type="button" class="btn btn-secondary btn-sm text-center px-2"><i class="fas fa-play fa-sm"></i> <small>Play Episode</small> </button>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          <img src="./assets/images/TheIbrahimiMosque.jpg" class="card-img img2 h-100 w-100" alt="...">
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="icons pb-1  text-center ">
+    <div class="mb-4 container">
+      <button class="btn btn-dark  rounded-0 p-4 m-3">
+        <i class="fab fa-facebook-f"></i>
+      </button>
+      <button class="btn btn-dark  rounded-0 p-4 m-3">
+        <i class="fab fa-twitter"></i>
+      </button>
+      <button class="btn btn-dark  rounded-0 p-4 m-3">
+        <i class="fab fa-instagram"></i>
+      </button>
+      <button class="btn btn-dark  rounded-0 p-4 m-3">
+        <i class="fab fa-linkedin "></i>
+      </button>
+    </div>
+  </div>
+  <section class="f-footer">
+    <div class="container ">
+      <footer class="py-5 ">
+        <div class="row">
+          <div class="col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-4 offset-1">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+  
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2023 Root In Palestine Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter" />
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram" />
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook" />
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js"> </script>
+</body>
+
+</html>
